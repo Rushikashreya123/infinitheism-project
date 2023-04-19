@@ -1,0 +1,16 @@
+{/* <Video
+  ref={video}
+  style={styles.video}
+  source={data[vedioSelected].video}
+  useNativeControls
+  resizeMode="cover"
+  isLooping
+  onPlaybackStatusUpdate={(status) => {
+    setStatus(status);
+    if (status.isPlaying && status.durationMillis !== undefined && status.positionMillis !== undefined) {
+      setProgress(status.positionMillis / status.durationMillis);
+    }
+  }}
+/> */}
+<progress value={progress} max="100" />
+{/* <ProgressBar progress={progress} width={100} height={10} color='red' style={styles.progressBar} /> */}

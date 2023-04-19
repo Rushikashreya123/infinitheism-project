@@ -1,0 +1,88 @@
+
+
+const data = [
+    {
+      id: 0,
+      video:require('./assets/video/video1.mp4'),
+      img:require('./assets/images/image1.jpg'),
+      chapterName: "Chapter 1",
+      discription: "Bring Happyiness Into Your Home",
+      duration: "9mints 20sec",
+      title: "Dinacharya",
+    },
+    {
+      id: 1,
+      video:require('./assets/video/video2.mp4'),
+      img:require('./assets/images/image2.jpg'),
+      chapterName: "Chapter 2",
+      discription: "Mastering Time Management",
+      duration: "9mints 22sec",
+      title: "Dinacharya",
+    },
+    {
+      id: 2,
+      video:require('./assets/video/video3.mp4'),
+      img:require('./assets/images/image3.jpg'),
+      chapterName: "Chapter 3",
+      discription: "Break Out Of Your Comfort Zone",
+      duration: "8mints 11sec",
+      title: "Dinacharya",
+    },
+    {
+      id: 3,
+      video:require('./assets/video/video4.mp4'),
+      img:require('./assets/images/image4.jpg'),
+      chapterName: "Chapter 4",
+      discription: "Is Life Hard For You?",
+      duration: "16mints 5sec",
+      title: "Dinacharya",
+    },
+  
+    {
+      id: 4,
+      video:require('./assets/video/video5.mp4'),
+      img:require('./assets/images/image5.jpg'),
+      chapterName: "Chapter 5",
+      discription: "Overcome Your Weaknesses",
+      duration: "5mints 56sec",
+      title: "Dinacharya",
+    },
+    {
+      id: 5,
+      video:require('./assets/video/video6.mp4'),
+      img:require('./assets/images/image6.jpg'),
+      chapterName: "Chapter 6",
+      discription: "Bring Happiness Into Your Life",
+      duration: "9mints 20sec",
+      title: "Dinacharya",
+    },
+    {
+      id: 6,
+      video:require('./assets/video/video7.mp4'),
+      img:require('./assets/images/image7.jpg'),
+      chapterName: "Chapter 7",
+      discription: "Drop Your Past",
+      duration: "6mints 36sec",
+      title: "Dinacharya",
+    },
+    {
+      id: 7,
+      video:require('./assets/video/video8.mp4'),
+      img:require('./assets/images/image8.jpg'),
+      chapterName: "Chapter 8",
+      discription: "Insincerity = Self-Cheating",
+      duration: "7mints 36sec",
+      title: "Dinacharya",
+    },
+    {
+      id: 8,
+      video:require('./assets/video/video9.mp4'),
+      img:require('./assets/images/image9.jpg'),
+      chapterName: "Chapter 9",
+      discription: "The girl in nature",
+      duration: "15mints",
+      title: "Dinacharya",
+    },
+   
+  ];
+  export default data;
